@@ -1,4 +1,3 @@
-# Crowdfunding App (Galang Dana)
 
 ## About Project
 
@@ -17,98 +16,9 @@ Fitur utama di aplikasi ini srupda dengan flow intinya, yaitu user masuk dan mel
 - Payment with Midtrans
 - Check Donation Goal
 
-### Admin
 
-- Manage User
-- Manage Donations
-- Manage Payment
-
-## Tech Stacks
-
-**Bahas Pemograman:**
-
-- Golang
-
-**Database:**
-
-- MySQL
-
-**ORM:**
-
-- Gin
-
-**Library:**
-
-- Cloudinary -> github.com/cloudinary/cloudinary-go
-- JWT -> github.com/dgrijalva/jwt-go
-- Gin -> github.com/gin-gonic/gin
-- Validator -> github.com/go-playground/validator/v10
-- Slug -> github.com/gosimple/slug
-- Accounting -> github.com/leekchan/accounting
-- Testify -> github.com/stretchr/testify
-- Midtrans -> github.com/veritrans/go-midtrans
-- Gorm -> gorm.io/gorm
-
-**Service:**
-
-- Midtrans
-- Cloudinary
-- Google Cloud Platform
-- Git
-- Github
-
-**Tools:**
-
-- Visual Studio Code
-- Postman
-
-## API Documentation
-
-```
-https://winter-astronaut-378621.postman.co/workspace/Adosistering~8afaf234-12a3-4403-b27d-e5a8864c4092/collection/24029040-0b8e2295-acf9-4243-9b90-5fc05b81e389?action=share&creator=24029040
 ```
 
 ## ERD
 
 ![Crowdfunding ERD](./docs/Crowdfunding-Minpro-Alterra.jpg)
-
-## Setup
-
-**Clone Project from Github**
-
-```bash
-git clone https://github.com/FaqihAzh/crowdfunding-minpro-alterra.git
-```
-
-**Go to Project**
-
-```bash
-cd crowdfunding-minpro-alterra
-```
-
-**Install Depedency**
-Jika proyek menggunakan dependensi pihak ketiga, jalankan perintah berikut:
-
-```bash
-go mod tidy
-```
-
-**Config**
-Set .env file
-
-```bash
- DBPass = ""
- DBHost = ""
- DBPort = ""
- JWT_SECRET= ""
- MIDTRANS_SERVER_KEY=""
- MIDTRANS_CLIENT_KEY=""
- CLOUDINARY_URL=""
-```
-
-**Menjalankan Aplikasi**
-Untuk menjalankan aplikasi, jalankan:
-
-```bash
-go run main.go
-```
