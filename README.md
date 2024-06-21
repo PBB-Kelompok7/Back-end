@@ -11,14 +11,7 @@ Fitur utama di aplikasi ini srupda dengan flow intinya, yaitu user masuk dan mel
 
 - Register
 - Login
-- Create Donations
 - Give Donations
 - Payment with Midtrans
 - Check Donation Goal
 
-
-```
-
-## ERD
-
-![Crowdfunding ERD](./docs/Crowdfunding-Minpro-Alterra.jpg)
